@@ -2,6 +2,24 @@
 Check membership
 """
 
+import re
+
+def checkLuhn(cardNo):
+    nDigits = len(cardNo)
+    nSum = 0
+    isSecond = False
+    for i in range(nDigits - 1, -1, -1):
+        d = ord(cardNo[i]) - ord('0')
+        if (isSecond == True):
+            d = d * 2
+        nSum += d // 10
+        nSum += d % 10
+        isSecond = not isSecond
+    if (nSum % 10 == 0):
+        return True
+    else:
+        return False
+
 dsi_rooms = {
     "single": [8, 60],
     "double": [10, 75],
@@ -91,3 +109,7 @@ else:
 
 reservation_price = reservation_rate * reservation_nights
 print("That would be £", reservation_price)
+
+reservation_name = input("What's your name? ")
+reservation_card = input("What's your card number? ")
+print(checkLuhn(reservation_card))

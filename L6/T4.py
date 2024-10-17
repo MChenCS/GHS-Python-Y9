@@ -1,5 +1,5 @@
 """
-Add parking & breakfast
+Check membership
 """
 
 dsi_rooms = {
