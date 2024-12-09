@@ -1,5 +1,5 @@
 """
-It's 01:56 right now Monday morning. Mr Chen hasn't done this bit yet because he spent the entire weekend playing computer games.
+It's 01:56 right now Monday morning. Mr Chen hasn't done this bit yet because they spent the entire weekend playing computer games.
 
 Just kidding.
 I've of course done this.
