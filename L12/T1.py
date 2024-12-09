@@ -8,10 +8,10 @@ lives = 8
 
 while lives != 0:
     print("You have", lives, "lives left.")
-    chosen_char = input("What character are you guessing? ")
-    if chosen_char in chosen_word:
+    user_char = input("What character are you guessing? ")
+    if user_char in chosen_word:
         print("Right")
-        temp = temp.replace(chosen_char, "")
+        temp = temp.replace(user_char, "")
     else:
         print("Wrong")
     lives = lives - 1
