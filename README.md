@@ -11,7 +11,7 @@ This repository contains all the code solutions used in Year 9 Python classes at
 
 ## Lesson Slides
 
-You can find the lesson slides [here](https://docs.google.com/presentation/d/1ICScbxjSN-yJMqwzMtResA5GyscSFeCBE0vjPvZSqP0/edit?usp=sharing).
+You can find the lesson slides [here](https://cs.sm39ps.uk/ks4/year-9-python-programming).
 
 ## How to Use
 
