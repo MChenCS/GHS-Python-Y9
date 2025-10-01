@@ -1,10 +1,10 @@
 """
-Capital of Spain?
+Capital of France?
 """
 
-answer = input("Capital of Spain: ")
+answer = input("Capital of France: ")
 
-if answer == "Madrid":
+if answer == "Paris":
     print("Correct")
 else:
     print("Wrong answer")
